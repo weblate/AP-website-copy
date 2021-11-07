@@ -1,5 +1,5 @@
 <head>
-  {% capture title %}{% t page.title %}{% endcapture %}
+  {% capture title %}{% page.title %}{% endcapture %}
   {% unless title.size > 0 %}{% assign title = page.title %}{% endunless %}
   {% capture title %}{% if title.size > 0 %}{{ title }} – {% endif %}{{ site.title }}{% endcapture %}
   <meta charset="utf-8">
