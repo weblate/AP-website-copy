@@ -1,1 +1,23 @@
-{}
+titles:
+  license: Lisens
+  about: Om
+  documentation: Dokumentasjon
+  blog: Blogg
+  contribute: Bidra
+  privacy: Personvernspraksis
+month:
+  Feb: Feb
+  Apr: Apr
+  May: Mai
+  Jul: Jul
+  Sep: Sep
+  Oct: Okt
+  Jan: Jan
+  Mar: Mar
+  Nov: Nov
+  Dec: Des
+  Jun: Jun
+  Aug: Aug
+long_month:
+  January: Januar
+  February: Februar
