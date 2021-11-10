@@ -1,1 +1,104 @@
-{}
+titles:
+  documentation: Documentation
+  contribute: Contribuer
+  license: Licence
+  blog: Blog
+  about: À propos
+  privacy: Politique de confidentialité
+contribute:
+  support:
+    text: Vous savez bien expliquer ? Aidez les autres utilisateurs sur notre forum.
+    title: Aider
+  introduction: AntennaPod est en développement actif par des volontaires. Vous pouvez
+    aussi contribuer, avec du code ou autre !
+  translate:
+    title: Traduire
+    text: Vous parlez une autre langue que l’anglais ? Aidez-nous à traduire AntennaPod
+      via Transifex.
+  test:
+    title: Tester
+    text: Vous êtes doué(e) pour casser des trucs ? Devenez bêta-testeur.
+  develop:
+    title: Programmer
+    text: Vous écrivez du code ? Aidez à tester les demandes ou soumettez de nouvelles
+      fonctionnalités ou des corrections d’erreurs pour l’application ou le site web.
+  promote:
+    title: Promouvoir
+    text: Vous rédigez des tweets accrocheurs, des billets de blogs intéressants ou
+      faites de merveilleux dessins ? Aidez-nous à faire passer le message.
+  design:
+    title: Design
+    text: Vous transformez des demandes complexes en récits d’utilisateurs ou en maquettes
+      fonctionnelles compréhensibles ? Aidez-nous à résoudre ces problèmes.
+  donate: Si vous ne pouvez pas contribuer de l’une des manières indiquées ci-dessus,
+    vous pouvez également faire un <a href="https://opencollective.com/antennapod"
+    target="_blank">don</a>.
+month:
+  May: mai
+  Apr: avr
+  Jan: jan
+  Feb: fév
+  Mar: mar
+  Jun: jun
+  Jul: juil
+  Aug: août
+  Sep: sep
+  Oct: oct
+  Nov: nov
+  Dec: déc
+long_month:
+  October: octobre
+  September: septembre
+  January: janvier
+  February: février
+  March: mars
+  April: avril
+  May: mai
+  June: juin
+  July: juillet
+  August: août
+  November: novembre
+  December: décembre
+generic:
+  download: Télécharger
+  contribute: Contribuer
+  view: Tout afficher
+  learn: En savoir plus
+  share: Partager
+  error: Erreur
+  redirect: Rediriger
+  subscribe: S’abonner
+language:
+  select: Langue
+footer:
+  description: Le gestionnaire de podcasts facile à utiliser, flexible et libre pour
+    Android.
+  license: Licence
+  privacy: Politique de confidentialité
+  links:
+    about: À propos
+    documentation: Documentation
+    media: Dossier de presse
+    contact: Contact
+homepage:
+  header: Le lecteur de podcasts ouvert
+  description: AntennaPod est un lecteur de podcasts entièrement ouvert. Le code source
+    de l’application est ouvert et vous pouvez vous abonner à n’importe quel flux
+    RSS. AntennaPod est conçu par des bénévoles sans intérêt commercial, il respecte
+    donc votre vie privée tout en vous donnant un contrôle total.
+  features:
+    adfree:
+      title: Sans publicité
+      description: L’application AntennaPod elle-même ne contient pas de publicités.
+        Si un éditeur choisit d’ajouter des publicités aux fichiers multimédias, il
+        obtient 100 % des revenus.
+    listenanywhere:
+      title: Écoutez n’importe où
+      description: Avec AntennaPod, vous pouvez télécharger des épisodes et les écouter
+        n’importe où. Vous pouvez même sélectionner les podcasts qui doivent être
+        téléchargés automatiquement.
+blog:
+  posted: Publié le
+readtime:
+  singular: min de lecture
+  plural: min de lecture
