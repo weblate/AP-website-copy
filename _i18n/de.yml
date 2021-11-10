@@ -3,12 +3,15 @@ titles:
   news: "Neuigkeiten"
   about: "Über uns"
   team: "Team"
-  license: "License"
-  documentation: "Documentation"
+  license: "Lizenz"
+  documentation: "Dokumentation"
   terms: "Terms of Service"
   contact: "Kontakt"
 
 ## Months
+  contribute: Beitragen
+  privacy: Datenschutzbestimmungen
+  blog: Blog
 month:
   Jan: "Jan"
   Feb: "Feb"
@@ -48,13 +51,19 @@ generic:
   projects: "Teilprojekte"
   goals: "Innovative Ziele"
 
+  download: Herunterladen
+  subscribe: Abonnieren
+  error: Fehler
+  contribute: Beitragen
+  redirect: Umleiten
 language:
   select: "Sprache"
 
 ## Footer
 footer:
-  description: "The easy-to-use, flexible and open-source podcast manager for Android."
-  license: "License"
+  description: "Das benutzerfreundliche, flexible und quelloffene Podcastverwaltungsprogramm\
+    \ für Android."
+  license: "Lizenz"
   privacy: "Datenschutzerklärung"
   links:
     about: "Über uns"
@@ -62,18 +71,69 @@ footer:
     documentation: "Documentation"
     download: "Download"
     blog: "Blog"
-    media: "Media Kit"
+    media: "Pressemappe"
     contact: "Kontakt"
 
 ## Homepage
 homepage:
-  header: "Resilient Digital Cities Stärken"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus ultrices habitant ultrices platea nibh vel. Nunc libero faucibus diam tincidunt."
+  header: "Der offene Podcast-Player"
+  description: "AntennaPod ist ein Podcast-Player, der völlig offen ist. Die Anwendung\
+    \ ist quelloffen und Sie können jeden RSS-Feed abonnieren. AntennaPod wird von\
+    \ Freiwilligen ohne kommerzielles Interesse entwickelt, so dass Ihre Privatsphäre\
+    \ respektiert wird und Sie die volle Kontrolle haben."
   mission: "Unsere Aufgabe"
   contact: "Kontaktanfragen"
   highlights: "Besondere Highlights"
   news: "Nachrichten"
   research: "Forschung"
-  research_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus ultrices habitant ultrices platea nibh vel. Nunc libero faucibus diam tincidunt."
+  research_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\
+    \ In tellus ultrices habitant ultrices platea nibh vel. Nunc libero faucibus diam\
+    \ tincidunt."
   collaborate: "Zusammenarbeiten"
-  collaborate_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus ultrices habitant ultrices platea nibh vel. Nunc libero faucibus diam tincidunt."
+  collaborate_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\
+    \ In tellus ultrices habitant ultrices platea nibh vel. Nunc libero faucibus diam\
+    \ tincidunt."
+  features:
+    listenanywhere:
+      title: Überall zuhören
+      description: Mit AntennaPod können Sie Episoden herunterladen und überall anhören.
+        Sie können sogar Podcasts auswählen, die automatisch heruntergeladen werden
+        sollen.
+    adfree:
+      description: Die AntennaPod-Anwendung selbst enthält keine Werbung. Wenn sich
+        ein Herausgeber dafür entscheidet, den Mediendateien Werbung hinzuzufügen,
+        erhält er 100 % der Einnahmen.
+      title: Werbefrei
+contribute:
+  introduction: AntennaPod wird von Freiwilligen aktiv weiterentwickelt. Auch Sie
+    können dazu beitragen, mit Code oder auf andere Weise!
+  translate:
+    text: Sie sprechen eine andere Sprache als Englisch? Helfen Sie uns bei der Übersetzung
+      von AntennaPod über Transifex.
+    title: Übersetzen
+  support:
+    text: Können Sie das gut erklären? Helfen Sie anderen Benutzern in unserem Forum.
+    title: Unterstützen
+  test:
+    text: Sie sind gut darin, Dinge zu zerstören? Werden Sie Beta-Tester.
+    title: Prüfen
+  develop:
+    title: Entwickeln
+    text: Sie schreiben Code? Helfen Sie beim Testen von Pull-Requests oder reichen
+      Sie neue Funktionen oder Fehlerbehebungen für die Anwendung oder Website ein.
+  promote:
+    title: Fördern
+    text: Sie verfassen einprägsame Tweets, interessante Blogs oder wunderbare Grafiken?
+      Helfen Sie, das Wort zu verbreiten.
+  design:
+    title: Design
+    text: Sie verwandeln komplexe Anfragen in verständliche Benutzergeschichten oder
+      Wireframes? Helfen Sie mit, diese Probleme zu lösen.
+  donate: Wenn Sie keinen der oben genannten Beiträge leisten können, können Sie auch
+    eine <a href="https://opencollective.com/antennapod" target="_blank">Spende</a>
+    machen.
+blog:
+  posted: Veröffentlicht am
+readtime:
+  plural: Min. Lesezeit
+  singular: Min. Lesezeit
