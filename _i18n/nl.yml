@@ -1,0 +1,22 @@
+contribute:
+  donate: Of, als je wil, je kunt altijd een <a href="https://opencollective.com/antennapod"
+    target="_blank">donatie</a> doen.
+  test:
+    title: Testen
+  develop:
+    title: Programmeren
+  promote:
+    title: Promoten
+  design:
+    title: Ontwerpen
+  translate:
+    title: Vertalen
+  support:
+    title: Hulp bieden
+titles:
+  license: Licentie
+  contribute: Bijdragen
+  documentation: Documentatie
+  privacy: Privacybeleid
+  blog: Blog
+  about: Over ons
