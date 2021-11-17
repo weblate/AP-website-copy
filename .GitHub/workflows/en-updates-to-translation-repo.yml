@@ -1,0 +1,29 @@
+name: Push EN changes to PO in translations branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-PO:
+    name: Update PO files
+    runs-on: ubunto-latest
+    steps:
+      - name: Prepare the grounds
+        uses: actions/checkout@v2
+        run: sudo apt-get install git
+        run: pip install mdpo
+      - name: Recreate PO files
+        run: md2po '_i18n/en/*.md' --save --po-filepath _i18n/PO-files
+        #not sure how this PO-filepath interacts with the target folder of git-publish-subdir-action
+        # see https://mdpo.readthedocs.io
+      - name: Push to translations branch
+        uses: s0/git-publish-subdir-action@develop
+        # see https://github.com/s0/git-publish-subdir-action
+        env:
+          REPO: self
+          BRANCH: translations # The branch name where you want to push the assets
+          FOLDER: PO-files # The directory where your assets are generated
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
+          MESSAGE: "Update PO files" # The commit message
