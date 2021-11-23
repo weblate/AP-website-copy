@@ -52,8 +52,8 @@
                     alt="{% t generic.accessibility.logo %}" />
             </div>
             <div class="overlay-content">
-                {% for link in site.data[site.lang].navbar %}
-                <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                {% for link in site.data.navbar %}
+                <a href="{{ site.baseurl }}{{ link.url }}">{% t {{ link.key }} %}</a>
                 {% endfor %}
             </div>
             <div class="overlay-footer">
