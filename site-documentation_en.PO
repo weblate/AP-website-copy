@@ -501,7 +501,7 @@ msgstr ""
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
 msgid ""
-"First, you want to subscribe to a podcast. You can find more about that "
+"Firstly, you want to subscribe to a podcast. You can find more about that "
 "[here](/documentation/getting-started/subscribe). After subscribing, new "
 "episodes are shown on `Episodes` » `New`. There you can decide if you "
 "actually like to listen to them or not. `New` means that you have not yet "
